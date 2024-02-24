@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    margin: 50px;
+    background-color: rgb(16, 22, 148);
+}
+
+main {
+    padding-left: 320px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    margin-top: 20px;
+    height: 1200px;
+    width: 900px;
+    background: linear-gradient(#12689e, #e4d4d9);
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow:10px 2px 2px black; ;
+}
+
+/* TITULO */
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* INPUT RADIO HOME */
+.sex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+/* INPUT RADIO END */
+input[type=text],
+[type=email] {
+    padding: 10px;
+    width: 450px;
+    font-size: 20px;
+    outline:0;
+    border-radius: 7px;
+    box-shadow: none;
+    box-shadow: 3px 3px 2px black;
+}
+
+input[type=number],
+[type=tel] {
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px black;
+}
+
+input[type=date] {
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px black;
+}
+.educ {
+    padding: 10px;
+    font-size: 20px;
+    outline: 0;
+    background-color: rgb(238, 238, 238);
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px black;
+}
+.btn { 
+    background-color: #e1e5ea;
+    border-radius: 5px;
+    padding: 1em;
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    width: 130px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 2px black;
+   
+}
+.btn:hover{
+    box-shadow: none;
+    background-color:#bae4ff;
+}

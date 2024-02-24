@@ -13,67 +13,71 @@
 
 
     </header>
+
+    <main>
+        <section class="formulario">
             <h1>Formulário</h1>
             <!--FORM TITLE-->
-
             <form action="#" method="GET">
                 <!--FORUM START-->
 
                 <label>
-                    Primeiro Nome: <br>
+                    Primeiro Nome: 
                     <input type="text" name="firstName" />
-                </label><br><br>
+                </label>
                 <!--FIRST NAME END-->
+
+
                 <label>
-                    Sobrenome:<br>
+                    Sobrenome:
                     <input type="text" name="lastName" />
-                </label><br><br>
+                </label>
                 <!--LAST NAME END-->
-                <label>
-                    Sexo:<br>
+                <label class="sex">
+                    Sexo:
                     <input type="radio" name="sexo" value="M">Masculino
                     <input type="radio" name="sexo" value="F"> Feminino
-                </label><br><br>
+                </label>
                 <!--SEXO END-->
                 <label>
-                    Data de Nascimento:<br>
+                    Data de Nascimento:
                     <input type="date" name="bday">
-                </label><br><br>
+                </label>
                 <!--BIRTH END-->
                 <label>
-                    RG<br>
+                    RG
                     <input type="number" name="rg">
-                </label><br><br>
+                </label>
                 <!--RG END-->
                 <label>
-                    CPF<br>
+                    CPF
                     <input type="number" name="cpf">
-                </label><br><br>
+                </label>
                 <!--CPF END-->
                 <label>
-                    Mãe<br>
+                    Mãe
                     <input type="text" name="motherName">
-                </label><br><br>
+                </label>
                 <!--MOTHER'S NAME END-->
-                <label>Pai<br>
+                <label>Pai
                     <input type="text" name="fatherName">
-                </label><br><br>
+                </label>
                 <!--FATHER'S NAME END-->
                 <label>
-                    Telefone<br>
+                    Telefone
                     <input type="tel" name="phone">
-                </label><br><br>
+                </label>
                 <!--PHONE-END-->
                 <label>
-                    E-mail<br>
+                    E-mail
                     <input type="email" name="email">
-                </label><br><br>
+                </label>
                 <!-- E-MAIL-END-->
                 <label>
-                    Escolaridade<br>
+                    Escolaridade
                     <!-- START-EDUCATION -->
-                    <select name="education">
-                        <option></option>
+                    <select class="educ" name="education">
+                        <option>Selecione</option>
                         <option value="Ensino Fundamental">Ensino Fundamental</option>
                         <option value="Ensino Medio">Ensino Medio</option>
                         <option value="Ensino Superior">Ensino Superior</option>
@@ -81,18 +85,17 @@
                         <option value="Ensino Medio Incompleto">Ensino Medio Incompleto</option>
                         <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
                     </select>
-                </label><br><br>
+                </label>
                 <!-- EDUCATION-END -->
-                <label>
-                    <input type="checkbox" />
-                    Eu declaro que li e aceito os <a href="#" target="_blank">termos de uso</a>
-                </label><br><br>
-
-                <input type="submit" value="Cadastrar" />
-                <input type="submit" value="Limpar Campos" />
+            
+                <input class="btn" type="submit" value="Cadastrar" />
+                <input class="btn" type="submit" value="Limpar Campos" />
+            
                 <!--SEND BUTTON -->
             </form>
             <!--FORM END-->
+        </section>
+    </main>
 </body>
 
 </html>
